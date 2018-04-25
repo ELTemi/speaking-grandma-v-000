@@ -4,7 +4,7 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
-  if phrase.class = String
+  if phrase.class == String
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
