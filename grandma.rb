@@ -4,8 +4,12 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
-  if phrase.class == String
+  if !phrase.uppercase
     puts "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN"
+  else
+    puts "NO, NOT SINCE 1938!"
   end
 end
 # If you shout, she can hear you (or at least she thinks so)
